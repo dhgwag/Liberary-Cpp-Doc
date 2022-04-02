@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## **Welcome to Liberary-Cpp Document**
 
-You can use the [editor on GitHub](https://github.com/dhgwag/Liberary-Cpp-Doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Liberary-Cpp는 [(주)리베라](https://www.libera.or.kr)의 가상자산 알고리즘 트레이딩 전용 C++ Library입니다.
+Source Code는 공개되지 않으며, Software License 문의는 아래로 연락바랍니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Liberary-Cpp is a C++ Library for crypto currency algorithm traiding of [Libera Inc.](https://www.libera.or.kr)
+Source code will not be disclosed, so please contact below for inquiries about the Software License.
 
-### Markdown
+CEO 곽동훈(Donghoon Gwag) | 010-9549-0188 | <ceo@libera.or.kr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### **Summary**
 
-```markdown
-Syntax highlighted code block
+Spot
 
-# Header 1
-## Header 2
-### Header 3
+|   | Upbit | Huobi | Binance | Okx |
+|---|-------|-------|---------|-----|
+| 1 | ○     | X     | ○       | ○   |
+| 2 | ○     | ○     | ○       | ○   |
+| 3 | △     |       |         |     |
 
-- Bulleted
-- List
+Futures
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhgwag/Liberary-Cpp-Doc/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+|   | Binance |
+|---|---------|
+| 1 | O       |
+| 2 | O       |
+| 3 |         |
