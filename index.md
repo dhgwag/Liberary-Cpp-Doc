@@ -1,16 +1,17 @@
-## **Welcome to Liberary-Cpp Document**
+# **Welcome to Liberary-Cpp Document**
 
 Liberary-Cpp는 [(주)리베라](https://www.libera.or.kr)의 가상자산 알고리즘 트레이딩 전용 C++ Library입니다.
-Source Code는 공개되지 않으며, Software License 문의는 아래로 연락바랍니다.
-
+Source Code는 공개되지 않으며, Software License 문의는 아래로 연락바랍니다.  
 Liberary-Cpp is a C++ Library for crypto currency algorithm traiding of [Libera Inc.](https://www.libera.or.kr)
 Source code will not be disclosed, so please contact below for inquiries about the Software License.
 
 CEO 곽동훈(Donghoon Gwag) | 010-9549-0188 | <ceo@libera.or.kr>
 
-### **Dependencies**
+---
 
-|                       |                         |
+## **Dependencies**
+
+|Package Name           |Version                  |
 |-----------------------|-------------------------|
 |g++                    |4:7.4.0-1ubuntu2.3       |
 |boost                  |1.78.0                   |
@@ -21,14 +22,13 @@ CEO 곽동훈(Donghoon Gwag) | 010-9549-0188 | <ceo@libera.or.kr>
 |jwt-cpp (github)       |v0.6.0 (hash:4a537e9)    |
 |zlib1g-dev             |1:1.2.11.dfsg-0ubuntu2.1 |
 
-### **Summary**
-O : Implemented
+---
 
-△ : Not implemented but will be supported
-
-X : Not implemented and will not be supported
-
-
+## **Abstraction**
+O : Implemented  
+△ : Not implemented but will be supported  
+X : Not implemented and will not be supported  
+  
 **Spot**
 
 |                                                                 | Upbit | Huobi | Binance | Okx |
@@ -66,5 +66,7 @@ X : Not implemented and will not be supported
 | getAllPositionAmt()                                           | O       |
 | getFundingFees(since)                                         | O       |
 | getCandleData(currency, market, interval, startTime, endTime) | O       |
+
+---
 
 Copyright © Libera Inc. All rights reserved
