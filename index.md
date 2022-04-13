@@ -34,7 +34,7 @@ X : Not implemented and will not be supported
 |                                                                 | Upbit | Bithumb | Huobi | Binance | Okx |
 |-----------------------------------------------------------------|-------|---------|-------|---------|-----|
 |setErrorLogger(*logger)                                          | O     | O       | O     | O       | O   |
-|getMarketSymbols(market)                                         | O     | △       | △     | △       | △   |
+|getMarketCurrencies(market)                                      | O     | △       | △     | △       | △   |
 |orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | △   |
 |orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | △   |
 |orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | △   |
