@@ -61,7 +61,7 @@ X : Not implemented and will not be supported
 
 |                                                               | Binance |
 |---------------------------------------------------------------|---------|
-| getMarketSymbols(market)                                      | O       |
+| getMarketCurrencies(market)                                   | O       |
 | updateAccountInfo()                                           | O       |
 | getTotalMarginBalance()                                       | O       |
 | getPositionAmt(currency, market)                              | O       |
