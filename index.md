@@ -31,43 +31,47 @@ X : Not implemented and will not be supported
   
 **Spot**
 
-|                                                                 | Upbit | Bithumb | Huobi | Binance | Okx |
-|-----------------------------------------------------------------|-------|---------|-------|---------|-----|
-|setErrorLogger(*logger)                                          | O     | O       | O     | O       | O   |
-|getMarketCurrencies(market)                                      | O     | △       | △     | △       | △   |
-|orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | △   |
-|orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | △   |
-|orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | △   |
-|orderLimitSellAmplify(currency, market, price, amount, amplifier)| O     | O       | O     | O       | △   |
-|orderInfo(currency, market, id)                                  | O     | O       | O     | O       | △   |
-|orderCancel(currency, market, id)                                | O     | O       | O     | O       | △   |
-|withdraw(currency, amount, address, tag, chain)                  | O     | O       | O     | O       | O   |
-|getWithdrawAmount(currency, since, id)                           | O     | O       | O     | O       | O   |
-|getWithdrawList(since)                                           | O     | △       | △     | △       | △   |
-|updateAccountBalance()                                           | O     | O       | O     | O       | O   |
-|updateAccountBalance(currencies)                                 | O     | O       | O     | O       | O   |
-|getAccountBalance(currency)                                      | O     | O       | O     | O       | O   |
-|getAllAccountBalance()                                           | O     | O       | O     | O       | O   |
-|updateWithdrawStatus()                                           | O     | O       | O     | O       | O   |
-|getWithdrawStatus(currency, chain)                               | O     | O       | O     | O       | O   |
-|isDepositCompleted(currency, amount, int64_t since)              | O     | O       | O     | O       | O   |
-|getOpenOrders(marketList)                                        | O     | △       | O     | O       | △   |
-|getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | △       | △   |
-|websocketDepth(pairs)                                            | O     | △       | O     | O       | △   |
-|websocketUserStream()                                            | X     | X       | O     | O       | △   |
-|getOrderbook(currency, market)                                   | O     | △       | O     | O       | △   |
+|                                                                  | Upbit | Bithumb | Huobi | Binance | Okx |
+|------------------------------------------------------------------|-------|---------|-------|---------|-----|
+| setErrorLogger(*logger)                                          | O     | O       | O     | O       | O   |
+| getMarketCurrencies(market)                                      | O     | △       | △     | △       | △   |
+| orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | △   |
+| orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | △   |
+| orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | △   |
+| orderLimitSellAmplify(currency, market, price, amount, amplifier)| O     | O       | O     | O       | △   |
+| orderInfo(currency, market, id)                                  | O     | O       | O     | O       | △   |
+| orderCancel(currency, market, id)                                | O     | O       | O     | O       | △   |
+| withdraw(currency, amount, address, tag, chain)                  | O     | O       | O     | O       | O   |
+| getWithdrawAmount(currency, since, id)                           | O     | O       | O     | O       | O   |
+| getWithdrawList(since)                                           | O     | △       | △     | △       | △   |
+| updateAccountBalance()                                           | O     | O       | O     | O       | O   |
+| updateAccountBalance(currencies)                                 | O     | O       | O     | O       | O   |
+| getAccountBalance(currency)                                      | O     | O       | O     | O       | O   |
+| getAllAccountBalance()                                           | O     | O       | O     | O       | O   |
+| updateWithdrawStatus()                                           | O     | O       | O     | O       | O   |
+| getWithdrawStatus(currency, chain)                               | O     | O       | O     | O       | O   |
+| isDepositCompleted(currency, amount, int64_t since)              | O     | O       | O     | O       | O   |
+| getOpenOrders(marketList)                                        | O     | △       | O     | O       | △   |
+| getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | △       | △   |
+| websocketDepth(pairs)                                            | O     | △       | O     | O       | △   |
+| websocketUserStream()                                            | X     | X       | O     | O       | △   |
+| getOrderbook(currency, market)                                   | O     | △       | O     | O       | △   |
 
 **Futures**
 
-|                                                               | Binance |
-|---------------------------------------------------------------|---------|
-| getMarketCurrencies(market)                                   | O       |
-| updateAccountInfo()                                           | O       |
-| getTotalMarginBalance()                                       | O       |
-| getPositionAmt(currency, market)                              | O       |
-| getAllPositionAmt()                                           | O       |
-| getFundingFees(since)                                         | O       |
-| getCandleData(currency, market, interval, startTime, endTime) | O       |
+|                                                                  | Binance |
+|------------------------------------------------------------------|---------|
+| getMarketCurrencies(market)                                      | O       |
+| orderLimitBuy(currency, market, price, amount)                   | O       |
+| orderLimitSell(currency, market, price, amount)                  | O       |
+| orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O       |
+| orderLimitSellAmplify(currency, market, price, amount, amplifier)| O       |
+| updateAccountInfo()                                              | O       |
+| getTotalMarginBalance()                                          | O       |
+| getPositionAmt(currency, market)                                 | O       |
+| getAllPositionAmt()                                              | O       |
+| getFundingFees(since)                                            | O       |
+| getCandleData(currency, market, interval, startTime, endTime)    | O       |
 
 ---
 
