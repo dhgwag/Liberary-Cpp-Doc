@@ -53,7 +53,7 @@ X : Not implemented and will not be supported
 | isDepositCompleted(currency, amount, int64_t since)              | O     | O       | O     | O       | O   |
 | getOpenOrders(marketList)                                        | O     | △       | O     | O       | △   |
 | getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | △       | △   |
-| websocketDepth(pairs)                                            | O     | △       | O     | O       | △   |
+| websocketDepth(pairs)                                            | O     | O       | O     | O       | O   |
 | websocketUserStream()                                            | X     | X       | O     | O       | △   |
 | getOrderbook(currency, market)                                   | O     | △       | O     | O       | △   |
 
