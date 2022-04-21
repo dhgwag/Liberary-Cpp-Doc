@@ -34,13 +34,13 @@ X : Not implemented and will not be supported
 |                                                                  | Upbit | Bithumb | Huobi | Binance | Okx |
 |------------------------------------------------------------------|-------|---------|-------|---------|-----|
 | setErrorLogger(*logger)                                          | O     | O       | O     | O       | O   |
-| getMarketCurrencies(market)                                      | O     | O       | △     | △       | △   |
-| orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | △   |
-| orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | △   |
-| orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | △   |
-| orderLimitSellAmplify(currency, market, price, amount, amplifier)| O     | O       | O     | O       | △   |
+| getMarketCurrencies(market)                                      | O     | O       | △     | △       | O   |
+| orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | O   |
+| orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | O   |
+| orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | O   |
+| orderLimitSellAmplify(currency, market, price, amount, amplifier)| O     | O       | O     | O       | O   |
 | orderInfo(currency, market, id)                                  | O     | O       | O     | O       | △   |
-| orderCancel(currency, market, id)                                | O     | O       | O     | O       | △   |
+| orderCancel(currency, market, id)                                | O     | O       | O     | O       | O   |
 | withdraw(currency, amount, address, tag, chain)                  | O     | O       | O     | O       | O   |
 | getWithdrawAmount(currency, since, id)                           | O     | O       | O     | O       | O   |
 | getWithdrawList(since)                                           | O     | △       | △     | △       | △   |
@@ -53,9 +53,10 @@ X : Not implemented and will not be supported
 | isDepositCompleted(currency, amount, int64_t since)              | O     | O       | O     | O       | O   |
 | getOpenOrders(marketList)                                        | O     | △       | O     | O       | △   |
 | getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | △       | △   |
+| updateOrderbook(currency, market)                                | △     | O       | △     | △       | △   |
 | websocketDepth(pairs)                                            | O     | O       | O     | O       | O   |
 | websocketUserStream()                                            | X     | X       | O     | O       | △   |
-| getOrderbook(currency, market)                                   | O     | △       | O     | O       | △   |
+| getOrderbook(currency, market)                                   | O     | O       | O     | O       | O   |
 
 **Futures**
 
