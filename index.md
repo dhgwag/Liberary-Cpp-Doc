@@ -35,13 +35,15 @@ X : Not implemented and will not be supported
 |------------------------------------------------------------------|-------|---------|-------|---------|-----|
 | setErrorLogger(*logger)                                          | O     | O       | O     | O       | O   |
 | getMarketCurrencies(market)                                      | O     | O       | O     | O       | O   |
+| updateTradingFee()                                               | O     | O       | O     | O       | O   |
+| getTradingFee(currency, market)                                  | O     | O       | O     | O       | O   |
 | orderLimitBuy(currency, market, price, amount)                   | O     | O       | O     | O       | O   |
 | orderLimitSell(currency, market, price, amount)                  | O     | O       | O     | O       | O   |
 | orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O     | O       | O     | O       | O   |
 | orderLimitSellAmplify(currency, market, price, amount, amplifier)| O     | O       | O     | O       | O   |
 | orderInfo(currency, market, id)                                  | O     | O       | O     | O       | O   |
 | orderCancel(currency, market, id)                                | O     | O       | O     | O       | O   |
-| withdraw(currency, amount, address, tag, chain)                  | O     | O       | O     | O       | O   |
+| withdraw(currency, amount, address, tag, chain)                  | O     | △       | O     | O       | O   |
 | getWithdrawAmount(currency, since, id)                           | O     | O       | O     | O       | O   |
 | getWithdrawList(since)                                           | O     | △       | △     | △       | △   |
 | updateAccountBalance()                                           | O     | O       | O     | O       | O   |
