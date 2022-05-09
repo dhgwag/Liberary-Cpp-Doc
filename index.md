@@ -54,7 +54,7 @@ X : Not implemented and will not be supported
 | getWithdrawStatus(currency, chain)                               | O     | O       | O     | O       | O   |
 | isDepositCompleted(currency, amount, int64_t since)              | O     | O       | O     | O       | O   |
 | getOpenOrders(marketList)                                        | O     | △       | O     | O       | O   |
-| getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | △       | △   |
+| getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | O       | △   |
 | updateOrderbook(currency, market)                                | △     | O       | △     | △       | △   |
 | websocketDepth(pairs)                                            | O     | O       | O     | O       | O   |
 | websocketUserStream()                                            | X     | X       | O     | O       | △   |
