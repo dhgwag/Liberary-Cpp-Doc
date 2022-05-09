@@ -57,6 +57,8 @@ X : Not implemented and will not be supported
 | getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | O       | △   |
 | updateOrderbook(currency, market)                                | △     | O       | △     | △       | △   |
 | websocketDepth(pairs)                                            | O     | O       | O     | O       | O   |
+| orderbookSubscribe(pairs)                                        | O     | O       | △     | O       | O   |
+| orderbookUnsubscribe(pairs)                                      | O     | O       | △     | O       | O   |
 | websocketUserStream()                                            | X     | X       | O     | O       | △   |
 | getOrderbook(currency, market)                                   | O     | O       | O     | O       | O   |
 
@@ -75,6 +77,9 @@ X : Not implemented and will not be supported
 | getAllPositionAmt()                                              | O       |
 | getFundingFees(since)                                            | O       |
 | getCandleData(currency, market, interval, startTime, endTime)    | O       |
+| websocketDepth(pairs)                                            | O       |
+| orderbookSubscribe(pairs)                                        | O       |
+| orderbookUnsubscribe(pairs)                                      | O       |
 
 ---
 
