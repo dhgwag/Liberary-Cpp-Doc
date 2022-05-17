@@ -56,6 +56,7 @@ X : Not implemented and will not be supported
 | getOpenOrders(marketList)                                        | O     | X       | O     | O       | O   |
 | getOpenOrders(currency, market)                                  | △     | O       | △     | △       | △   |
 | getCandleData(currency, market, interval, startTime, endTime)    | O     | O       | △     | O       | △   |
+| updateAllOrderbook(market)                                       | △     | O       | △     | △       | △   |
 | updateOrderbook(currency, market)                                | △     | O       | △     | △       | △   |
 | websocketDepth(pairs)                                            | O     | O       | O     | O       | O   |
 | orderbookSubscribe(pairs)                                        | O     | O       | △     | O       | O   |
