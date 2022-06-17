@@ -66,22 +66,26 @@ X : Not implemented and will not be supported
 
 **Futures**
 
-|                                                                  | Binance |
-|------------------------------------------------------------------|---------|
-| getMarketCurrencies(market)                                      | O       |
-| orderLimitBuy(currency, market, price, amount)                   | O       |
-| orderLimitSell(currency, market, price, amount)                  | O       |
-| orderLimitBuyAmplify(currency, market, price, amount, amplifier) | O       |
-| orderLimitSellAmplify(currency, market, price, amount, amplifier)| O       |
-| updateAccountInfo()                                              | O       |
-| getTotalMarginBalance()                                          | O       |
-| getPositionAmt(currency, market)                                 | O       |
-| getAllPositionAmt()                                              | O       |
-| getFundingFees(since)                                            | O       |
-| getCandleData(currency, market, interval, startTime, endTime)    | O       |
-| websocketDepth(pairs)                                            | O       |
-| orderbookSubscribe(pairs)                                        | O       |
-| orderbookUnsubscribe(pairs)                                      | O       |
+|                                                                                        | Binance | Ftx |
+|----------------------------------------------------------------------------------------|---------|-----|
+| getMarketCurrencies(market)                                                            | O       | O   |
+| orderLimitBuy(currency, market, expiration, price, amount)                             | O       | O   |
+| orderLimitSell(currency, market, expiration, price, amount)                            | O       | O   |
+| orderLimitBuyAmplify(currency, market, expiration, price, amount, amplifier)           | O       | O   |
+| orderLimitSellAmplify(currency, market, expiration, price, amount, amplifier)          | O       | O   |
+| changeLeverage(currency, market, expiration, leverage)                                 | O       | O   |
+| changeMarginType(currency, market, expiration, margin)                                 | O       | X   |
+| updateAccountInfo()                                                                    | O       | O   |
+| getTotalMarginBalance()                                                                | O       | O   |
+| getLeverage(currency, market, expiration)                                              | O       | O   |
+| getMarginType(currency, market, expiration)                                            | O       | O   |
+| getPositionAmt(currency, market, expiration)                                           | O       | O   |
+| getAllPositionAmt()                                                                    | O       | O   |
+| getFundingFees(since)                                                                  | O       | O   |
+| getCandleData(currency, market, expiration, interval, startTime, endTime)              | O       | O   |
+| websocketDepth(pairs)                                                                  | O       | O   |
+| orderbookSubscribe(pairs)                                                              | O       | O   |
+| orderbookUnsubscribe(pairs)                                                            | O       | O   |
 
 ---
 
